@@ -79,7 +79,6 @@ fn main() {
     // Este erro ocorre pois o valor 40000 ultrapassa a capacidade de bits que podem ser atribuídos à um tipo i16
 
     //4. Integer Operations
-
     let soma = a + a;
     println!("soma = {}", soma);
 
