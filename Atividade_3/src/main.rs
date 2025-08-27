@@ -12,12 +12,11 @@ fn primeira_palavra(palavra: &str) -> &str{
 
     for (i,c) in palavra.char_indices() {
         if c == ' ' {                     //Comparando o caracter em c com a string vazia ' '
-            return &palavra[0..i];
+            return &palavra[0..i];      //Fazendo o slice da palavra do começo ate o ultimo índice da 1 palavra
         }
     }
     palavra
 }
-
 fn main() {
     let vetor_teste =
         ["hello world",
@@ -25,16 +24,14 @@ fn main() {
             "rust",
             "",
             " ",
-            "bomdiatudobem?"];
+            "bomdiatudobem?",
+            "bom dia tudo bem?"];
 
     for p in vetor_teste {
         println!("1ºPalavra: {}", primeira_palavra(p))
     };
 }
-    #[cfg(test)]
-    mod tests {
-        use super::*;
-        #[test]
+#[test]
     fn my_tests() {
         assert_eq!(primeira_palavra("hello world"), "hello");
         assert_eq!(primeira_palavra(" rust"), "");
@@ -42,4 +39,4 @@ fn main() {
         assert_eq!(primeira_palavra(""), "");
         assert_eq!(primeira_palavra("   "), "");
         assert_eq!(primeira_palavra("bomdiatudobem?"), "bomdiatudobem?");
-    } }
+        assert_eq!(primeira_palavra("bom dia tudo bem?"), "bom")}
