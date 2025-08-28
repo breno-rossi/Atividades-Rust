@@ -26,8 +26,6 @@ impl Sala{
     }
 }
 
-
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -64,4 +62,3 @@ mod tests {
     }
 
 }
-
