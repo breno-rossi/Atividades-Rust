@@ -45,7 +45,7 @@ fn main() {
 
     let codigo_secreto = generate_secret_code();
 
-    let mut tentativas: i32 = 0;
+    let mut tentativas: i8 = 0;
 
     loop {
         println!("\nDigite sua tentativa:");
