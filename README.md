@@ -7,4 +7,5 @@
 4. Jogo Mastermind
 5. Sala Paralelepípedos
 6. Jogo da Forca
+7. Login Simples
 
