@@ -8,7 +8,8 @@
 5. Sala Paralelepípedos
 6. Jogo da Forca
 7. Login Simples
-8. Organização de Módulos 
+8. Organização de Módulos
+9. Struct Genérica
 
 ## Lista de Projetos
 1. Sistema de Gerenciamento de Zoológico
