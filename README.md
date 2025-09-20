@@ -10,6 +10,7 @@
 7. Login Simples
 8. Organização de Módulos
 9. Struct Genérica
+10. Pilha Limitada
 
 ## Lista de Projetos
 1. Sistema de Gerenciamento de Zoológico
