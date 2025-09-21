@@ -1,13 +1,10 @@
-// Definindo uma struct simples que pode ser copiada
 #[derive(Copy, Clone, Debug, PartialEq)]
 struct Ponto {
     x: i32,
     y: i32,
 }
 
-// Função genérica que funciona apenas com tipos copiáveis
 fn trocar_copiavel<T: Copy>(a: &mut T, b: &mut T) {
-    // Lógica de troca tradicional usando uma variável temporária
     let temp = *a;  // Cria uma cópia do valor de 'a'
     *a = *b;        // Copia o valor de 'b' para 'a'
     *b = temp;      // Copia o valor temporário para 'b'
