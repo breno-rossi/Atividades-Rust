@@ -1,6 +1,6 @@
 use std::fmt::Debug;
 
-// 1. Definindo o enum OrdemComparacao
+
 #[derive(Debug, PartialEq)]
 pub enum OrdemComparacao {
     Menor,
@@ -77,7 +77,7 @@ fn main() {
     println!("Palavras Originais: {:?}", palavras);
 
     ordenacao_bolha_custom(&mut palavras, |a: &String, b: &String| {
-        // Implementando comparação lexicográfica de String em ordem ascendente
+
         use std::cmp::Ordering;
         match a.cmp(b) {
             Ordering::Less => OrdemComparacao::Menor,
@@ -100,7 +100,7 @@ fn main() {
     println!("Itens Originais: {:?}", itens);
 
     ordenacao_bolha_custom(&mut itens, |a: &Item, b: &Item| {
-        // Implementando comparação multi-chave: primeiro por valor, depois por nome
+
         use std::cmp::Ordering;
 
         // Primeiro compara por valor
