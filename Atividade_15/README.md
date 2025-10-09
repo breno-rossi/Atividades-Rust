@@ -110,7 +110,3 @@ O programa lida com diversos cenários de erro:
 - URLs relativas são convertidas automaticamente para absolutas
 - Apenas formatos de imagem comuns são baixados
 - Se uma imagem falhar, as outras continuam sendo baixadas
-
-## 📄 Licença
-
-MIT
