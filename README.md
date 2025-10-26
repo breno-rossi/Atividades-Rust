@@ -15,7 +15,9 @@
 12. Agrupando Itens por Categoria com Traits e Generics
 13. Implementação do Trait Genérico Calculavel para Formas Geométricas
 14. Ordenação com Closure
-15. Downloader de Imagens em Rust
+15. Downloader de Imagens em Rust.
+16. ----
+17. Basic LinkedList
 
 ## Lista de Projetos
 1. Sistema de Gerenciamento de Zoológico
