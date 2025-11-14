@@ -18,6 +18,8 @@
 15. Downloader de Imagens em Rust.
 16. ----
 17. Basic LinkedList
+18.
+19. Cronograma
 
 ## Lista de Projetos
 1. Sistema de Gerenciamento de Zoológico
